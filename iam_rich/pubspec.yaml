@@ -1,0 +1,25 @@
+name: iam_rich
+description: A Flutter project to create a simple "I Am Rich" app.
+publish_to: 'none' # Private package, not published to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets declaration
+  assets:
+    - assets/diamond.png
